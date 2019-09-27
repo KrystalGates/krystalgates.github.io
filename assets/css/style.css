@@ -190,7 +190,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/background.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -299,7 +299,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 500px;
+    max-width: 800px;
     height: 468px;
 }
 .about-list-icon{
@@ -719,7 +719,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #f9fbfd;
     padding: 50px 0 100px;
 }
-.single-contact-box {padding-top: 100px;}
+.single-contact-box {padding-top: 80px;}
 .contact-form  .form-group {
     margin-bottom: 20px;
 
@@ -787,12 +787,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: capitalize;
     color:  #636a82;
     font-weight:  300;
-    margin-top:  6px;
+    margin-top:  16px;
 }
 /* contact-adress */
 
 /*.contact-add-info */
-.contact-add-info { margin: 42px 0 52px;}
+.contact-add-info { margin: 30px 0 52px;}
 .single-contact-add-info h3 {
     color:  #636a82;
     font-weight:  500;
@@ -800,7 +800,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-contact-add-info p {
     color:  #797d8d;
     font-size:  16px;
-    margin-top:  18px;
+    margin-top:  4px;
 }
 .single-contact-add-info {
     margin-bottom:  26px;
@@ -808,9 +808,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {
 
+.footer-icon-size{
+    font-size: 30px
 }
+
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
